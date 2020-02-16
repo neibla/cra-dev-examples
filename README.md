@@ -33,7 +33,7 @@ vi /etc/hosts
 brew install mkcert
 mkcert -install
 mkcert example.com localhost 127.0.0.1 ::3000
-mv *.pem certs
+mkdir certs; mv *.pem certs
 ```
 3.
 ``` 
@@ -53,7 +53,7 @@ vi /etc/hosts
 brew install mkcert
 mkcert -install
 mkcert example.com localhost 127.0.0.1 ::3000
-mv *.pem > certs
+mkdir certs; mv *.pem certs
 ```
 3.
 ``` 
@@ -62,7 +62,7 @@ yarn start-https-custom
 or 
 install ssl-proxy via 
 ```
-go get https://github.com/suyashkumar/ssl-proxy
+go get github.com/suyashkumar/ssl-proxy
 ```
 yarn start-https-custom2
 ```
