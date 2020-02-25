@@ -71,5 +71,8 @@ yarn start-https-custom2
 Other local https examples:
 https://github.com/HugoDF/docker-compose-local-https
 
+other:
+https://github.com/containous/traefik/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
